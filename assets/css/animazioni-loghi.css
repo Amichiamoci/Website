@@ -1,0 +1,21 @@
+#Logo_Amichiamoci_2022 #Pallone_e_Scia #Pallone_da_Calcio,
+#Logo_Amichiamoci_2022 #Pallone_Pallavolo {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: ruota-palla linear infinite;
+}
+#Logo_Amichiamoci_2022 #Pallone_e_Scia #Pallone_da_Calcio {
+    animation-duration: 2s;
+}
+#Logo_Amichiamoci_2022 #Pallone_Pallavolo {
+    animation-duration: 10s;
+    animation-direction: reverse;
+}
+@keyframes ruota-palla {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
