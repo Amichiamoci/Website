@@ -1,2 +1,2 @@
 RewriteEngine On
-ErrorDocument 404 not-found.php
+ErrorDocument 404 ./not-found.php
