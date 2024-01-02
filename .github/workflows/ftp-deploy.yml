@@ -1,8 +1,9 @@
 on: push
 name: 🚀 FTP deploy on push
 jobs:
-  web-deploy:
-    name: 🚀 FTP Deploy
+  ftp-deploy-master:
+    name: ⬆️ FTP deploy
+    if: github.repository == 'Amichiamoci/Website' && github.head_ref == "master"
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -14,4 +15,19 @@ jobs:
         server: ${{ secrets.FTP_ENDPOINT }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ${{ secrets.FTP_FOLDER_BASE }}${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}/
+        server-dir: ${{ secrets.FTP_FOLDER_BASE }}
+  ftp-deploy-test:
+    name: ⬆️👷 FTP deploy test version
+    if: github.repository == 'Amichiamoci/Website' && github.head_ref == "test"
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_ENDPOINT }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ${{ secrets.FTP_FOLDER_BASE }}test/
