@@ -1,0 +1,7 @@
+# Sito web Associazione Diocesana Amichiamoci A.S.D. - Dcesi di Livorno - Centro Sportivo Italiano
+# per informazioni contattare info@amichiamoci.it
+
+User-Agent: *
+Disallow:
+admin/*
+app/*
