@@ -30,4 +30,4 @@ jobs:
         server: ${{ secrets.FTP_ENDPOINT }}
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ${{ secrets.FTP_FOLDER_BASE }}test/
+        server-dir: ${{ secrets.FTP_FOLDER_BASE }}site_test/
