@@ -3,7 +3,7 @@ name: 🚀 FTP deploy on push
 jobs:
   ftp-deploy-master:
     name: ⬆️ FTP deploy
-    if: github.repository == 'Amichiamoci/Website' && github.head_ref == "master"
+    if: github.repository == 'Amichiamoci/Website' && github.head_ref == 'master'
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -18,7 +18,7 @@ jobs:
         server-dir: ${{ secrets.FTP_FOLDER_BASE }}
   ftp-deploy-test:
     name: ⬆️👷 FTP deploy test version
-    if: github.repository == 'Amichiamoci/Website' && github.head_ref == "test"
+    if: github.repository == 'Amichiamoci/Website' && github.head_ref == 'test'
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
