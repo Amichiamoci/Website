@@ -386,7 +386,7 @@
 		</div>
 	</footer>
 	<div class="bottom-bar">
-		<p>&copy; Amichiamoci 2023</p>
+		<p>&copy; Amichiamoci 2024</p>
 	</div>
 
 <!-- Leaflet --------------------------------------------------------------- -->
