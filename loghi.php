@@ -78,7 +78,7 @@
 		</div>
 		<div class="cover-content">
 			<h1>Amichiamoci</h1>
-			<h3>Prendete in mano la vostra vita e fatene un capolavoro!</h3>
+			<h3>Piedi per terra, cuori nel Cielo!</h3>
 			<p>
 				Manifestazione annuale per giovani e giovanissimi della
 				diocesi di Livorno.
@@ -241,6 +241,13 @@
 				</span>
 				<span class="year">2022</span>
 			</div>
+			<div class="logo-box column col-25">
+				<img src="assets/images/loghi/2023.jpg">
+				<span class="slogan">
+					Piedi per terra, cuori nel Cielo
+				</span>
+				<span class="year">2023</span>
+			</div>
 		</div>
 	</section>
 
@@ -286,7 +293,7 @@
 		</div>
 	</footer>
 	<div class="bottom-bar">
-		<p>&copy; Amichiamoci 2023</p>
+		<p>&copy; Amichiamoci <?php echo date("Y"); ?></p>
 	</div>
 
 <!-- Leaflet --------------------------------------------------------------- -->
