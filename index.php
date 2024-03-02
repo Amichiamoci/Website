@@ -74,7 +74,7 @@
 		</div>
 		<div class="cover-content">
 			<h1>Amichiamoci</h1>
-			<h3>Prendete in mano la vostra vita e fatene un capolavoro!</h3>
+			<h3>Piedi per terra, cuori nel Cielo!</h3>
 			<p>
 				Manifestazione annuale per giovani e giovanissimi della
 				diocesi di Livorno.
@@ -263,24 +263,24 @@
 				<h2>Loghi</h2>
 			</div>
 			<a id="logo-1" class="logo-box column col-20" href="loghi.php">
-				<img src="assets/images/loghi/2016.jpg">
-				<span class="slogan big">2016</span>
-			</a>
-			<a id="logo-2" class="logo-box column col-20" href="loghi.php">
 				<img src="assets/images/loghi/2017.jpg">
 				<span class="slogan big">2017</span>
 			</a>
-			<a id="logo-3" class="logo-box column col-20" href="loghi.php">
+			<a id="logo-2" class="logo-box column col-20" href="loghi.php">
 				<img src="assets/images/loghi/2018.jpg">
 				<span class="slogan big">2018</span>
 			</a>
-			<a id="logo-4" class="logo-box column col-20" href="loghi.php">
+			<a id="logo-3" class="logo-box column col-20" href="loghi.php">
 				<img src="assets/images/loghi/2019.jpg">
 				<span class="slogan big">2019</span>
 			</a>
-			<a id="logo-5" class="logo-box column col-20" href="loghi.php">
+			<a id="logo-4" class="logo-box column col-20" href="loghi.php">
 				<img src="assets/images/loghi/2022.jpg">
 				<span class="slogan big">2022</span>
+			</a>
+			<a id="logo-5" class="logo-box column col-20" href="loghi.php">
+				<img src="assets/images/loghi/2023.jpg">
+				<span class="slogan big">2023</span>
 			</a>
 			<div class="column col-100">
 				<a class="button big rounded" href="loghi.php">
@@ -386,7 +386,7 @@
 		</div>
 	</footer>
 	<div class="bottom-bar">
-		<p>&copy; Amichiamoci 2023</p>
+		<p>&copy; Amichiamoci <?php echo date("Y"); ?></p>
 	</div>
 
 <!-- Leaflet --------------------------------------------------------------- -->
