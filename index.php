@@ -386,7 +386,7 @@
 		</div>
 	</footer>
 	<div class="bottom-bar">
-		<p>&copy; Amichiamoci <?php echo date("Y"); ?></p>
+		<p>&copy; Amichiamoci 2023</p>
 	</div>
 
 <!-- Leaflet --------------------------------------------------------------- -->
