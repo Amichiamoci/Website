@@ -25,8 +25,10 @@ jobs:
       - name: Install and Build 🔧
         run: |
           cd source
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          apt-get update && apt-get install -y imagemagick build-essential
+          gem install --no-document jekyll bundler
           export JEKYLL_ENV=production
+          bundle install --no-cache
           bundle exec jekyll build
           cd ..
     
