@@ -7,7 +7,6 @@ RUN apt-get update -y && \
         imagemagick \
         inotify-tools \
         locales \
-        nodejs \
         procps \
         zlib1g-dev
 RUN apt-get clean && \
@@ -16,8 +15,7 @@ RUN apt-get clean && \
 
 RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
     locale-gen
-ENV EXECJS_RUNTIME=Node \
-    JEKYLL_ENV=production \
+ENV JEKYLL_ENV=production \
     LANG=it_IT.UTF-8 \
     LANGUAGE=it_IT:it \
     LC_ALL=it_IT.UTF-8

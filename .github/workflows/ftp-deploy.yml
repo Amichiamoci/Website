@@ -25,9 +25,12 @@ jobs:
       - name: Install and Build 🔧
         run: |
           cd source
-          apt-get update && apt-get install -y imagemagick build-essential
+          apt-get update && apt-get install -y imagemagick build-essential locales
           gem install --no-document jekyll bundler
           export JEKYLL_ENV=production
+          export LANG=it_IT.UTF-8
+          export LANGUAGE=it_IT:it
+          export LC_ALL=it_IT.UTF-8
           bundle install --no-cache
           bundle exec jekyll build
           cd ..

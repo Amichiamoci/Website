@@ -6,7 +6,7 @@ menu:
     title: Chi siamo
   - url: "#logos"
     title: Loghi
-main_image: /images/staff.jpg
+main_image: /assets/images/staff.jpg
 main_id: about
 sections:
   - quote-pope-1.liquid
