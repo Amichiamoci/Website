@@ -3,35 +3,56 @@ baseurl: ""
 title: "Amichiamoci"
 lang: it-IT
 
+authors:
+  - Leonardo Puccini
+  - Riccardo Ciucci
+
 logos:
+  - year: 2024
+    file: /images/logos/2024.jpg
+    motto: Dov'è odio, che io porti Amore
   - year: 2023
-    file: /images/logos/2023.jpg
+    file: /images/logos/2023.svg
+    motto: Prendete in mano la vostra vita e fatene un capolavoro
   - year: 2022
-    file: /images/logos/2022.jpg
+    file: /images/logos/2022.svg
+    motto: Piedi per terra, cuori nel Cielo
   - year: 2019
     file: /images/logos/2019.jpg
+    motto: Apri il cuore al mondo
   - year: 2018
     file: /images/logos/2018.jpg
+    motto: Niente riserve, più titolari
   - year: 2017
     file: /images/logos/2017.jpg
+    motto: Chiamati alla gioia
   - year: 2016
     file: /images/logos/2016.jpg
+    motto: Ama e dillo con la vita
   - year: 2015
     file: /images/logos/2015.jpg
+    motto: Keep calm and rallegriamoci
   - year: 2014
     file: /images/logos/2014.jpg
+    motto: Il vero potere è il servizio
   - year: 2013
     file: /images/logos/2013.jpg
+    motto: Rispondi alla chiamata
   - year: 2012
     file: /images/logos/2012.jpg
+    motto: È più bello insieme
   - year: 2011
     file: /images/logos/2011.jpg
+    motto: Ascolta la mia voce
   - year: 2010
     file: /images/logos/2010.jpg
+    motto: Radicati in Cristo, saldi nella Fede
   - year: 2009
     file: /images/logos/2009.jpg
+    motto: Trova il Tempo...
   - year: 2008
     file: /images/logos/2008.jpg
+    motto: Avrete la forza dallo Spirito Santo
   - year: 2007
     file: /images/logos/2007.jpg
   - year: 2006

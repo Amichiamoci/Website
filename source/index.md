@@ -6,26 +6,23 @@ menu:
     title: Chi siamo
   - url: "#logos"
     title: Loghi
+main_image: /images/staff.jpg
+main_id: about
+sections:
+  - quote-pope-1.liquid
+  - tournaments-small.liquid
+  - quote-pope-2.liquid
+  - logos-small.liquid
 ---
 
-<section id="about" class="about overlap">
-	<div class="overlap-box">
-		<div class="overlap-image">
-			<img src="" alt="">
-		</div>
-		<div class="overlap-content">
-			<h2>Chi siamo</h2>
-			<p>
-					"Amichiamoci" è una manifestazione che comprende momenti
-					di preghiera, tornei sportivi ed eventi di vario genere.
-					Iniziata nel 2006, la manifestazione si svolge ogni anno,
-					nel mese di settembre.
-			</p>
-			<a class="button" href="/about">
-				Leggi tutto
-			</a>
-		</div>
-	</div>
-</section>
+## Chi siamo
 
-{% include logos-small.liquid %}
+"Amichiamoci" è una manifestazione che comprende momenti
+di preghiera, tornei sportivi ed eventi di vario genere.
+
+Iniziata nel 2006, la manifestazione si svolge ogni anno,
+nel mese di settembre.
+
+<a class="button" href="/about">
+	Leggi tutto
+</a>

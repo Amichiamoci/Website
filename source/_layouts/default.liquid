@@ -6,7 +6,13 @@
   <title>
     {{ page.title }} - {{ site.title }}
   </title>
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% endif %}
   <meta name="robots" content="index, follow">
+  {% for author in site.authors %}
+    <meta name="author" content="{{ author }}">
+  {% endfor %}
 
   <link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin>
   <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
@@ -54,11 +60,41 @@
     </div>
   </header>
 
-  <button type="button" title="Torna su" class="scroll-top">
+  <button type="button" title="Torna su" class="scroll-top-btn">
 	  <i class="fa-solid fa-caret-up"></i>
   </button>
 
-  {{ content }}
+  {% include banner.liquid %}
+  
+  {% if page.avoid_md %}
+    {{ content }}
+  {% else %}
+    <section class="overlap" title="{{ page.title }}" id="{{ page.main_id }}">
+      <div class="overlap-box">
+        {% if page.main_image %}
+          <div class="overlap-image">
+              <img 
+                src="{{ page.main_image | relative_url }}" 
+                alt="{{ page.title }}">
+          </div>
+          <div class="overlap-content">
+            {{ content }}
+          </div>
+        {% else %}
+          <div class="overlap-image no-image"></div>
+          <div class="overlap-content no-image text-content">
+            {{ content }}
+          </div>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.sections %}
+    {% for sect in page.sections %}
+      {% include {{ sect }} %}
+    {% endfor %}
+  {% endif %}
 
   {% include footer.liquid %}
 

@@ -238,9 +238,6 @@ header { justify-content: center; align-items: center; }
 .cover.error { height: 100vh; max-height: none; }
 
 .cover-image { width: 100%; height: 100%; position: absolute; }
-.cover-image { background-image: url("../images/home.jpg"); }
-
-.cover.small .cover-image { background-image: url("../images/home-alt.jpg"); }
 
 .cover-content { width: 100%; max-width: 960px; z-index: 10; display: flex; }
 .cover-content { justify-content: center; align-items: center; }
