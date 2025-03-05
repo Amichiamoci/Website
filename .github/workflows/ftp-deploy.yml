@@ -3,31 +3,37 @@ name: 🚀 FTP deploy on push
 jobs:
   ftp-deploy-master:
     name: ⬆️ FTP deploy
-    if: ${{ github.repository == 'Amichiamoci/Website' && github.ref_name == 'master' }}
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+      
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "source/_config.yml"
+          propertyPath: "baseurl"
+          value: test
+
+      - name: Install and Build 🔧
+        run: |
+          cd source
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
     
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_ENDPOINT }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ${{ secrets.FTP_FOLDER_BASE }}
-  ftp-deploy-test:
-    name: ⬆️👷 FTP deploy test version
-    if: ${{ github.repository == 'Amichiamoci/Website' && github.ref_name == 'test' }}
-    runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_ENDPOINT }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ${{ secrets.FTP_FOLDER_BASE }}site_test/
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_ENDPOINT }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_FOLDER_BASE }}/test
+          local-dir: source/_site/

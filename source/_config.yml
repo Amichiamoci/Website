@@ -1,0 +1,38 @@
+url: "https://amichiamoci.it"
+baseurl: ""
+title: "Amichiamoci"
+lang: it-IT
+
+logos:
+  - year: 2023
+    file: /images/logos/2023.jpg
+  - year: 2022
+    file: /images/logos/2022.jpg
+  - year: 2019
+    file: /images/logos/2019.jpg
+  - year: 2018
+    file: /images/logos/2018.jpg
+  - year: 2017
+    file: /images/logos/2017.jpg
+  - year: 2016
+    file: /images/logos/2016.jpg
+  - year: 2015
+    file: /images/logos/2015.jpg
+  - year: 2014
+    file: /images/logos/2014.jpg
+  - year: 2013
+    file: /images/logos/2013.jpg
+  - year: 2012
+    file: /images/logos/2012.jpg
+  - year: 2011
+    file: /images/logos/2011.jpg
+  - year: 2010
+    file: /images/logos/2010.jpg
+  - year: 2009
+    file: /images/logos/2009.jpg
+  - year: 2008
+    file: /images/logos/2008.jpg
+  - year: 2007
+    file: /images/logos/2007.jpg
+  - year: 2006
+    file: /images/logos/2006.jpg
