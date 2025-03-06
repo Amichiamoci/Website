@@ -4,7 +4,9 @@ title: Chi siamo
 permalink: /about/index.html
 main_image: /assets/images/staff.jpg
 menu:
-  - url: "#history"
+  - url: "#linizio"
+    title: L'inizio
+  - url: "#amichiamoci"
     title: Amichiamoci
 main_id: history
 ---
@@ -36,6 +38,8 @@ allora una giornata di preghiera e giochi presso l'Istituto
 Santo Spirito di Livorno.
 
 La giornata fu un trionfo di adesioni ed entusiasmo.
+
+
 
 ## Amichiamoci
 

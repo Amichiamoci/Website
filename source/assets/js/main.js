@@ -1,6 +1,7 @@
 //
 // Map at the bottom of the page
 //
+
 (() => {
     const map = L.map("leaflet-map").setView([43.550040, 10.309440], 14);
 
@@ -14,9 +15,11 @@
     map.scrollWheelZoom.disable();
 })();
 
+
 //
 // In-page Link scrolling
 //
+
 $('a[href*="#"]')
     .not('[href="#"]')
     .not('[href="#0"]')
@@ -25,31 +28,40 @@ $('a[href*="#"]')
             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
             location.hostname == this.hostname
         ) {
-            // Figure out element to scroll to
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            // Does a scroll target exist?
-            if (target.length) {
-                // Only prevent default if animation is actually gonna happen
-                event.preventDefault();
-                $('html, body').animate({
-                    scrollTop: target.offset().top - 80
-                }, 1000, function() {
-                    // Callback after animation
-                    // Must change focus!
-                    var $target = $(target);
-                    $target.focus();
-                    
-                    if ($target.is(":focus")) { // Checking if the target was focused
-                        return false;
-                    }
 
-                    $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                    $target.focus(); // Set focus again
-                });
+            if (!target.length) {
+                return;
             }
+            event.preventDefault();
+
+            $(document.body).removeClass('no-scroll');
+            $('.hamburger').removeClass('clicked');
+            $('.navbar').removeClass('navbar');
+
+            $('html, body').animate({
+                scrollTop: target.offset().top - 80
+            }, 1000, function() {
+                
+                var $target = $(target);
+                $target.focus();
+                
+                if ($target.is(":focus")) {
+                    return false;
+                }
+
+                $target.attr('tabindex','-1');
+                $target.focus();
+            });
         }
     });
+
+
+//
+// Scroll to top btn
+//
+
 $(document).ready(function() {
     const btn = '#scroll-top-btn';
     $(window).scroll(function() {
@@ -63,4 +75,15 @@ $(document).ready(function() {
         $('html, body').animate({ scrollTop: 0 }, 800);
         return false;
     });
+});
+
+
+//
+// Hamburger menu
+//
+
+$(".hamburger").click(function () {
+    $(this).toggleClass('clicked');
+    $(".navbar").toggleClass('show');
+    $(document.body).toggleClass('no-scroll');
 });

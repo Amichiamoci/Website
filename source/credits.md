@@ -3,10 +3,12 @@ layout: default
 title: Crediti
 permalink: /credits/index.html
 menu:
-  - url: "#slogan"
-    title: Loghi & slogan
-  - url: "#logos"
-    title: Loghi
+  - url: "#realizzazione-del-sito"
+    title: Sito
+  - url: "#contenuti-multimediali"
+    title: Foto
+  - url: "#tecnologie-impiegate"
+    title: Com'è fatto
 ---
 
 ## Crediti
@@ -18,11 +20,13 @@ particolare:
 
 {% include authors.liquid %}
 
+
 ### Contenuti multimediali
 
 Tutte le foto e le immagini contenute in questo sito sono
 state realizzate dal nostro staff nel corso delle varie
 edizioni di Amichiamoci.
+
 
 ### Tecnologie impiegate
 
