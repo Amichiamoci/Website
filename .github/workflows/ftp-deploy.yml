@@ -14,13 +14,20 @@ jobs:
           ruby-version: "3.3.5"
           bundler-cache: true
       
-      - name: Update configuration ⚙️
+      - name: Update base-url ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
           valueFile: "source/_config.yml"
           propertyPath: "baseurl"
           value: test
+      - name: Update repo-url ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "source/_config.yml"
+          propertyPath: "repo_url"
+          value: https://github.com/${{ github.repository }}
 
       - name: Install and Build 🔧
         run: |

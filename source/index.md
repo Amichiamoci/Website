@@ -15,6 +15,7 @@ sections:
   - tournaments-small.liquid
   - quote-pope-2.liquid
   - logos-small.liquid
+  - instagram.liquid
 ---
 
 ## Chi siamo
@@ -25,6 +26,7 @@ di preghiera, tornei sportivi ed eventi di vario genere.
 Iniziata nel 2006, la manifestazione si svolge ogni anno,
 nel mese di settembre.
 
-<a class="button" href="/about">
+
+<a class="button" href="{{ "/about" | relative_url }}">
 	Leggi tutto
 </a>

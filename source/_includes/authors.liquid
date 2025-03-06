@@ -1,0 +1,19 @@
+<ul>
+    {% for author in site.authors %}
+        <li>
+            {% if author.site %}
+                <a href="{{ author.site }}" target="_blank" title="Vai al sito personale">
+                    {{ author.name }}
+                </a>
+            {% else %}
+                {{ author.name }}
+            {% endif %}
+            ({{ author.roles }})
+            {% if author.linkedin %}
+                <a class="credits-icon" href="{{ author.linkedin }}" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
