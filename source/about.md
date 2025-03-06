@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Chi siamo
+permalink: /about/index.html
+main_image: /assets/images/staff.jpg
 menu:
   - url: "#history"
     title: Amichiamoci

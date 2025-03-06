@@ -1,6 +1,7 @@
 ---
 layout: default
 title: I loghi
+permalink: /logos/index.html
 menu:
   - url: "#slogan"
     title: Loghi & slogan

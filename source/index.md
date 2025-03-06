@@ -4,6 +4,8 @@ title: Benvenuto
 menu:
   - url: "#about"
     title: Chi siamo
+  - url: "#sports"
+    title: Tornei
   - url: "#logos"
     title: Loghi
 main_image: /assets/images/staff.jpg

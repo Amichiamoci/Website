@@ -3,5 +3,6 @@
 
 User-Agent: *
 Disallow:
+test/*
 admin/*
 app/*
