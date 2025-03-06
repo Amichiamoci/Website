@@ -32,4 +32,8 @@ FROM nginx
 LABEL author "Riccardo Ciucci <riccardo@ciucci.dev>"
 LABEL author "Leonardo Puccini"
 WORKDIR /usr/share/nginx/html
+RUN mkdir -p assets
 COPY --from=builder /app/_site/* .
+RUN mv ./css ./assets/css
+RUN mv ./js ./assets/js
+RUN mv ./images ./assets/images
