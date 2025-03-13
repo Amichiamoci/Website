@@ -38,7 +38,7 @@ $('a[href*="#"]')
 
             $(document.body).removeClass('no-scroll');
             $('.hamburger').removeClass('clicked');
-            $('.navbar').removeClass('navbar');
+            $('.navbar').removeClass('show');
 
             $('html, body').animate({
                 scrollTop: target.offset().top - 80
