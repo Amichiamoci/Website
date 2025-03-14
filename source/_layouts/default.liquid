@@ -69,25 +69,28 @@
   {% if page.avoid_md %}
     {{ content }}
   {% else %}
-    <section class="overlap" title="{{ page.title }}" id="{{ page.main_id }}">
-      <div class="overlap-box">
-        {% if page.main_image %}
-          <div class="overlap-image">
-              <img 
-                src="{{ page.main_image | relative_url }}" 
-                alt="{{ page.title }}">
-          </div>
-          <div class="overlap-content">
-            {{ content }}
-          </div>
-        {% else %}
-          <div class="overlap-image no-image"></div>
-          <div class="overlap-content no-image text-content">
-            {{ content }}
-          </div>
-        {% endif %}
-      </div>
-    </section>
+    {% assign content_blocks = content | split: "<h2" | slice: 1, 1000 %}
+    {% for content_block in content_blocks %}
+      <section class="overlap" title="{{ page.title }}" id="{{ page.main_id }}">
+        <div class="overlap-box">
+          {% if page.main_image and forloop.first %}
+            <div class="overlap-image">
+                <img 
+                  src="{{ page.main_image | relative_url }}" 
+                  alt="{{ page.title }}">
+            </div>
+            <div class="overlap-content">
+              {{ content_block | prepend: "<h2" }}
+            </div>
+          {% else %}
+            <div class="overlap-image no-image"></div>
+            <div class="overlap-content no-image text-content">
+              {{ content_block | prepend: "<h2" }}
+            </div>
+          {% endif %}
+        </div>
+      </section>
+    {% endfor %}
   {% endif %}
 
   {% if page.sections %}
