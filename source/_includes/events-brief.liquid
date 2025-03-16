@@ -1,0 +1,27 @@
+<section id="events" class="events cards">
+    <div class="grid">
+        <div class="column col-100">
+            <h2>Eventi</h2>
+        </div>
+        {% for event in site.events %}
+            <div class="card column col-30">
+                <a class="card-image" href="{{ event.link | relative_url }}">
+                    <img 
+                        src="{{ event.image | relative_url }}"
+                        alt="Foto evento"
+                        title="Foto {{ event.name }}">
+                    <span></span>
+                </a>
+                <div class="card-content">
+                    <h3>{{ event.name }}</h3>
+                    <p>
+                        {{ event.brief }}
+                    </p>
+                    <a class="button" href="{{ event.link | relative_url }}">
+                        Scopri di più
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

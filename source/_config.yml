@@ -66,3 +66,29 @@ logos:
     file: /assets/images/logos/2007.jpg
   - year: 2006
     file: /assets/images/logos/2006.jpg
+
+events:
+  - name: Festa Iniziale
+    image: /assets/images/events/festa-iniziale.jpg
+    link: /events/opening-feast
+    brief: Una festa per inaugurare la nuova edizione di Amichiamoci.
+  - name: Caccia al Tesoro
+    image: /assets/images/events/caccia-al-tesoro.jpg
+    link: /events/treasure-hunt
+    brief: Intrigante caccia (a premi) per le vie della città.
+  - name: Cena con Delitto
+    image: /assets/images/events/cena-con-delitto.jpg
+    link: /events/murder-mistery-dinner
+    brief: Cena con delitto a squadre. Troverete il colpevole?
+  - name: Santa Messa
+    image: /assets/images/events/santa-messa.jpg
+    link: /events/holy-mass
+    brief: La Santa Messa di Amichiamoci, siete tutti invitati!
+  - name: Veglia di Preghiera
+    image: /assets/images/events/veglia-di-preghiera.jpg
+    link: /events/prayer-vigil
+    brief: Un momento di preghiera e di riflessione	insieme.
+  - name: Festa finale
+    image: /assets/images/events/festa-finale.jpg
+    link: /events/closing-feast
+    brief: Musica, cibo e divertimento per chiudere in bellezza.

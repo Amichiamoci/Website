@@ -3,8 +3,8 @@ layout: default
 title: I loghi
 permalink: /logos/index.html
 menu:
-  - url: "#slogan"
-    title: Loghi & slogan
+  - url: "#gli-slogan"
+    title: Slogan
   - url: "#logos"
     title: Loghi
 main_id: slogan
@@ -12,7 +12,7 @@ sections:
   - logos-grid.liquid
 ---
 
-## Loghi & Slogan
+## Gli Slogan
 
 Ogni edizione di Amichiamoci ha un logo e uno slogan che
 la rappresenta. Si parte dalla ricerca di un tema, che

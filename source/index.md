@@ -8,6 +8,8 @@ menu:
     title: Tornei
   - url: "#logos"
     title: Loghi
+  - url: "#events"
+    title: Eventi
 main_image: /assets/images/staff.jpg
 main_id: about
 sections:
@@ -15,6 +17,7 @@ sections:
   - tournaments-small.liquid
   - quote-pope-2.liquid
   - logos-small.liquid
+  - events-small.liquid
   - instagram.liquid
 ---
 
