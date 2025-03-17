@@ -3,6 +3,12 @@ layout: default
 title: Privacy
 permalink: /privacy/index.html
 menu:
+  - url: "#privacy"
+    title: Privacy
+  - url: "#foto-e-contenuti-multimediali"
+    title: Foto
+  - url: "#tutela-dei-minori"
+    title: Minori
 ---
 
 ## Privacy

@@ -8,7 +8,6 @@ menu:
     title: L'inizio
   - url: "#amichiamoci"
     title: Amichiamoci
-main_id: history
 ---
 
 ## L'inizio

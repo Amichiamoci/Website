@@ -55,27 +55,27 @@ h3, h4, h5, h6 {
 
 h1 { 
 	font-size: 64px; 
-	margin-bottom: 16px; 
+	margin-block: 10px 8px; 
 }
 h2 { 
 	font-size: 48px;  
-	margin-bottom: 12px; 
+	margin-block: 12px 6px; 
 }
 h3 { 
 	font-size: 32px; 
-	margin-bottom: 10px; 
+	margin-block: 5px 4px; 
 }
 h4 { 
 	font-size: 26px; 
-	margin-bottom: 8px; 
+	margin-block: 4px; 
 }
 h5 { 
 	font-size: 24px; 
-	margin-bottom: 8px; 
+	margin-block: 4px; 
 }
 h6 { 
 	font-size: 22px; 
-	margin-bottom: 8px; 
+	margin-block: 4px; 
 }
 
 p { 
@@ -1082,25 +1082,3 @@ footer {
 	#leaflet-map { height: 256px; }
 }
 
-.instagram {
-	width: 100%;
-
-	.igwrapper {
-		position: relative;
-		margin-inline: auto;
-
-		iframe {
-			border: 0;
-			position: relative;
-			z-index: 2;
-		}
-			
-		a {
-			color: $black;
-			position: absolute;
-			left: 0;
-			top: 0;
-			z-index: 0;
-		}
-	}
-}

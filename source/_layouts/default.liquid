@@ -71,7 +71,7 @@
   {% else %}
     {% assign content_blocks = content | split: "<h2" | slice: 1, 1000 %}
     {% for content_block in content_blocks %}
-      <section class="overlap" title="{{ page.title }}" id="{{ page.main_id }}">
+      <section class="overlap" title="{{ page.title }}">
         <div class="overlap-box">
           {% if page.main_image and forloop.first %}
             <div class="overlap-image">

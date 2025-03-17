@@ -2,7 +2,7 @@
 layout: default
 title: Benvenuto
 menu:
-  - url: "#about"
+  - url: "#chi-siamo"
     title: Chi siamo
   - url: "#sports"
     title: Tornei
@@ -11,7 +11,6 @@ menu:
   - url: "#events"
     title: Eventi
 main_image: /assets/images/staff.jpg
-main_id: about
 sections:
   - quote-pope-1.liquid
   - tournaments-small.liquid

@@ -1,0 +1,23 @@
+
+.instagram {
+	width: 100%;
+
+	.igwrapper {
+		position: relative;
+		margin-inline: auto;
+
+		iframe {
+			border: 0;
+			position: relative;
+			z-index: 2;
+		}
+			
+		a {
+			color: $black;
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 0;
+		}
+	}
+}

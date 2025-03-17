@@ -7,7 +7,6 @@ menu:
     title: Slogan
   - url: "#logos"
     title: Loghi
-main_id: slogan
 sections:
   - logos-grid.liquid
 ---
