@@ -1,0 +1,145 @@
+
+.cards { 
+	padding: 64px 32px;
+
+	h2 { 
+		width: 100%; 
+		text-align: center;
+	}
+}
+
+.card { 
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 24px 4px;
+	margin: 1.65%; 
+	border-radius: 24px; 
+}
+
+.card-image { 
+	width: 100%; 
+	position: relative; 
+	display: block; 
+
+	img, span {
+		border-top-left-radius: 24px;
+		border-top-right-radius: 24px;
+	}
+	img { 
+		height: auto; 
+		object-fit: contain;
+	}
+	span { 
+		position: absolute; 
+		left: 0; 
+		top: 0;
+		width: 100%;
+		height: calc(100% - 4px);
+
+		background: $orange;
+		opacity: 0; 
+		visibility: hidden; 
+		transition: 400ms;
+	}
+	&:hover span {
+		opacity: 0.5;
+		visibility: visible;
+	}
+}
+
+.card-content { 
+	padding: 24px;
+
+	button { 
+		margin-top: 8px;
+	}
+}
+
+.sports h2 { margin-top: 1.65%; }
+
+.events .col-100 { text-align: center; }
+
+/* Tablet */
+@media screen and (max-width: 1024px)
+{
+	.cards { 
+		padding: 48px 32px;
+
+		.col-30 { 
+			width: 100% !important; 
+			margin: 16px 0;
+		}
+	}
+
+	.card { display: flex; }
+
+	.card-image { 
+		width: 50%;
+		img, span {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			border-top-left-radius: 24px;
+			border-bottom-left-radius: 24px;
+		}
+
+		img { 
+			height: 100%; 
+			object-fit: cover;
+		}
+
+		span { height: 100%; }
+	}
+
+	.card-content { 
+		width: 50%; 
+		display: flex;
+		flex-direction: column;
+		justify-content: center; 
+		align-items: flex-start;
+		
+		p {
+			font-size: 24px;
+		}
+	}
+
+	.sport-content button { font-size: 24px; }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px)
+{
+	.cards { padding: 32px; }
+
+	.card { 
+		display: block; 
+		border-radius: 24px;
+	}
+
+	.card-image {
+		width: 100%;
+
+		img, span {
+			border-top-left-radius: 24px;
+			border-top-right-radius: 24px;
+			border-bottom-left-radius: 0;
+		}
+
+		img {
+			height: auto;
+			object-fit: contain;
+		}
+		span {
+			height: calc(100% - 4px);
+		}
+	}
+
+	.card-content { 
+		display: block;
+		width: 100%;
+
+		h3 { font-size: 28px; }
+
+		p, button {
+			font-size: 18px;
+		}
+	}
+}

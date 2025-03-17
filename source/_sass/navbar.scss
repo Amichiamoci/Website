@@ -1,0 +1,149 @@
+$header-bg: #f6f4f4;
+$header-height: 80px;
+
+header { 
+	width: 100%; 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	padding: 8px 16px; 
+
+	background-color: $header-bg; 
+	z-index: 10000; 
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo { 
+	height: calc($header-height - 16px); 
+	margin-right: 32px;
+
+	img {
+		width: auto;
+		height: 100%;
+		object-fit: contain;
+	}
+}
+
+.navbar { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	list-style: none;
+
+	li {
+		padding: 12px;
+		list-style: none;
+
+		a {
+			font-family: $serif;
+			font-size: 20px;
+
+			&:not(.button) {
+				color: $black;
+				&:hover {
+					color: $orange;
+				}
+			}
+		}
+		button {
+			padding: 6px 16px;
+		}
+	}
+}
+
+.hamburger { 
+	width: 36px; 
+	height: 16px; 
+	position: relative; 
+
+	display: none;
+	justify-content: center; 
+	flex-direction: column;
+
+	cursor: pointer;
+
+	span {
+		display: block;
+		width: 100%;
+		height: 2px;
+
+		background: $black;
+		
+		position: absolute;
+		left: 0;
+		transition: 600ms;
+
+		&:first-child {
+			top: 0;
+		}
+		&:last-child {
+			top: calc(100% - 2px);
+		}
+	}
+
+	&.clicked span {
+		top: 50%;
+		&:first-child {
+			transform: translateY(-50%) rotate(45deg);
+		}
+		&:last-child {
+			transform: translateY(-50%) rotate(-45deg);
+		}
+	}
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px)
+{
+	header { 
+		justify-content: space-between;
+	}
+
+	.logo { 
+		margin-right: 0;
+	}
+
+	.navbar { 
+		position: absolute; 
+		right: -100%; 
+		top: $header-height;
+		width: 100%; 
+		height: calc(100vh - $header-height);
+
+		background: $header-bg;
+		transition: 600ms;
+		flex-direction: column;
+
+		&.show {
+			right: 0;
+		}
+
+		li {
+			a { font-size: 32px; }
+			button { 
+				background: $orange; 
+				color: #fff;
+			}
+		}
+	}
+
+	.hamburger { 
+		display: flex; 
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px)
+{
+	.navbar li a { 
+		font-size: 24px;
+	}
+}
+
+
+.separator { 
+	height: $header-height; 
+}
