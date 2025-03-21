@@ -25,11 +25,11 @@ I tornei under e i tornei femminili sono di calcio a 5, mentre quelli over posso
 
 ## Under
 
-Per i ragazzi e le ragazze sotto i XX anni.
+Per i ragazzi e le ragazze sotto i 17 anni.
 
 ## Over
 
-Per i ragazzi e le ragazze sopra i XX anni.
+Per i ragazzi e le ragazze sopra i 17 anni (che hanno compiuto o compiranno 17 anni nell'anno in corso).
 
 ## Regolamento
 

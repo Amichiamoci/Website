@@ -45,7 +45,7 @@ jobs:
 
       - name: Edit robots.txt file
         run: |
-          echo -e "\n\nhttps://www.amichiamoci.it/test/sitemap.xml" >> ./robots.txt
+          echo -e "\n\nSitemap: https://www.amichiamoci.it/test/sitemap.xml" >> ./robots.txt
           cp ./robots.txt source/_site/
     
       - name: Sync files with server 📂
