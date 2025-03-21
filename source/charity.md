@@ -19,7 +19,7 @@ Partecipare ad Amichiamoci significa fare la differenza: insieme possiamo trasfo
 ### UNHCR - 2024
 Associazione delle Nazioni Unite che ....
 
-### Le figlie del Crocofisso - 2023
+### Le Figlie del Crocofisso - 2023
 
 ### Vippity Clown in Corsia - 2022
 

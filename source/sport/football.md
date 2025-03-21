@@ -14,6 +14,8 @@ menu:
     title: Requisiti
 ---
 
+## Calcio
+
 Il calcio viene giocato in due distinte categorie in base all'età:
 [under](#under "Vai alla sezione") e [over](#over "Vai alla sezione").
 

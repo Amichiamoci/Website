@@ -3,6 +3,8 @@ baseurl: ""
 title: "Amichiamoci"
 lang: it-IT
 repo_url:
+plugins:
+  - jekyll-sitemap
 
 authors:
   - name: Leonardo Puccini
@@ -22,10 +24,10 @@ logos:
     motto: Dov'è odio, che io porti Amore
   - year: 2023
     file: /assets/images/logos/2023.svg
-    motto: Prendete in mano la vostra vita e fatene un capolavoro
+    motto: Piedi per terra, cuori nel Cielo
   - year: 2022
     file: /assets/images/logos/2022.svg
-    motto: Piedi per terra, cuori nel Cielo
+    motto: Prendete in mano la vostra vita e fatene un capolavoro
   - year: 2019
     file: /assets/images/logos/2019.jpg
     motto: Apri il cuore al mondo

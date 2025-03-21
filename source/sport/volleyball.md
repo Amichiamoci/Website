@@ -14,6 +14,8 @@ menu:
     title: Requisiti
 ---
 
+## Pallavolo
+
 La pallavolo viene giocata in due distinte categorie in base all'età:
 [under](#under "Vai alla sezione") e [over](#over "Vai alla sezione").
 

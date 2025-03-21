@@ -46,6 +46,8 @@ GEM
       concurrent-ruby (~> 1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.10.1)
@@ -80,6 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll!
+  jekyll-sitemap
 
 BUNDLED WITH
    2.6.2

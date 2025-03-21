@@ -5,4 +5,5 @@ User-Agent: *
 Disallow:
 test/*
 admin/*
+admin_test/*
 app/*
