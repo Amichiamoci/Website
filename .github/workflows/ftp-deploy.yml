@@ -45,8 +45,8 @@ jobs:
 
       - name: Edit robots.txt file
         run: |
-          echo -e "\nhttps://www.amichiamoci.it/test/sitemap.xml" >> ./robots.txt
-          cp ./robots.txt ./_site/
+          echo -e "\n\nhttps://www.amichiamoci.it/test/sitemap.xml" >> source/robots.txt
+          cp source/robots.txt source/_site/
     
       - name: Sync files with server 📂
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
