@@ -14,13 +14,27 @@ jobs:
           ruby-version: "3.3.5"
           bundler-cache: true
       
+      - name: Calculate Deploy Path and Variables
+        id: deploy-path
+        run: |
+          if [ "$BRANCH" = 'master' ]
+          then
+            echo "path=/" >> "$GITHUB_OUTPUT"
+            echo "path_stripped=" >> "$GITHUB_OUTPUT"
+          else
+            echo "path=/test/" >> "$GITHUB_OUTPUT"
+            echo "path_stripped=test" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          BRANCH: ${{ github.ref_name }}
+      
       - name: Update base-url ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
           valueFile: "source/_config.yml"
           propertyPath: "baseurl"
-          value: test
+          value: ${{ steps.deploy-path.outputs.path }}
       
       - name: Update repo-url ⚙️
         uses: fjogeleit/yaml-update-action@main
@@ -45,7 +59,7 @@ jobs:
 
       - name: Edit robots.txt file
         run: |
-          echo -e "\n\nSitemap: https://www.amichiamoci.it/test/sitemap.xml" >> ./robots.txt
+          echo -e "\n\nSitemap: https://www.amichiamoci.it/sitemap.xml" >> ./robots.txt
           cp ./robots.txt source/_site/
     
       - name: Sync files with server 📂
@@ -54,5 +68,5 @@ jobs:
           server: ${{ secrets.FTP_ENDPOINT }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_FOLDER_BASE }}/test/
+          server-dir: ${{ secrets.FTP_FOLDER_BASE }}${{ steps.deploy-path.outputs.path }}
           local-dir: source/_site/
