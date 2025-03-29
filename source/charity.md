@@ -17,11 +17,25 @@ Partecipare ad Amichiamoci significa fare la differenza: insieme possiamo trasfo
 ## Beneficiari passati
 
 ### UNHCR - 2024
-Associazione delle Nazioni Unite che ....
+L'[UNHCR](https://www.unhcr.org/it/) (Alto Commissariato delle Nazioni Unite per i Rifugiati) è
+un'agenzia dell'ONU fondata nel 1950 per proteggere e assistere i rifugiati,
+gli sfollati e gli apolidi in tutto il mondo.
+
+Il suo obiettivo principale è garantire diritti e sicurezza a chi è costretto a fuggire da guerre, persecuzioni o disastri, promuovendo soluzioni durature come il rimpatrio volontario, l'integrazione o il reinsediamento.
 
 ### Le Figlie del Crocofisso - 2023
 
 ### Vippity Clown in Corsia - 2022
+*Viviamo In Positivo Italia Onlus* é associazione di clown terapia
+presente non solo in circa 200 strutture sociosanitarie, ospedali e case di riposo in Italia ma anche nei Paesi in via di sviluppo per l’attuazione di progetti di “animazione educativa” con i valori della clownterapia e del Circo Sociale.
 
-### Centro Mondialità - 2019
-Tanzania
+Presta servizio in orfanotrofi, ospedali, strutture per disabili fisici e psichici, quartieri in situazioni di disagio e nelle scuole al fine di donare speranza e gioia a chi vive in contesti sociali di povertà ed emarginazione educativa.
+
+### Siamo in Diversi - 2019
+http://www.siamoindiversi.it/
+
+### Centro Mondialità per lo Sviluppo Reciproco - 2018
+Amichiamoci ha sostenuto la missione di [12 giovani livornesi in Tanzania](https://cmsr.org/campagne/kilimaji/):
+punto di partenza per la costruzione di apparati idrici nella regione.
+Maggiori informazioni sul Centro Mondialità, che ha organizzato la missione, si possono trovare sul loro sito:
+<https://cmsr.org/>
