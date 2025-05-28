@@ -70,6 +70,13 @@ Per esercitare tali diritti o per qualsiasi informazione,
 Il diritto all'oblio può essere esercitato anche durante lo svolgimento della manifestazione, tuttavia ciò ne comporta una automatica esclusione da ogni tipo di torneo (in quanto avviene una revoca della copertura assicurativa).
 
 
+## Iscrizione alla Manifestazione
+L'iscrizione alla Manifestazione può essere effettuata tramite l'
+{% if site.subscription_url %}[App di Amichiamoci]({{ site.subscription_url }}){% else %}App di Amichiamoci{% endif %}.
+
+Alternativamente, è sufficiente inviare i propri dati (comprensivi di documento di riconoscimento) ad uno staffista per manifestare la propria intenzione ad iscriversi.
+
+
 ## Foto e contenuti multimediali
 Iscrivendosi alla manifestazione si acconsente ad essere fotografati e/o ripresi durante lo svolgimento della stessa.
 Il materiale prodotto può essere utilizzato dalla manifestazione sul proprio sito web, l'app e i vari canali social.
@@ -77,6 +84,7 @@ Il materiale prodotto può essere utilizzato dalla manifestazione sul proprio si
 
 ## Tutela dei minori
 I minori di 18 anni necessitano che la loro iscrizione sia approvata da un genitore o da un tutore legale, che provvederà anch'esso a depositare i propri dati presso l'associazione.
+La consegna dei dati di un genitore o tutore è considerata sufficiente ad approvare l'iscrizione del proprio figlio/a o tutorato/a.
 Un'iscrizione di un minore senza i dati di un genitore o un tutore legale è considerata nulla e preclude la partecipazione alle attività della manifestazione.
 
 
@@ -84,4 +92,4 @@ Un'iscrizione di un minore senza i dati di un genitore o un tutore legale è con
 Il titolare del trattamento dei dati è l’associazione *Amichiamoci*:
 un'associazione diocesana facente capo alla Diocesi di Livorno.  
 
-`Ultimo aggiornamento: 16/03/2025`
+`Ultimo aggiornamento: 25/05/2025`

@@ -24,6 +24,9 @@ gli sfollati e gli apolidi in tutto il mondo.
 Il suo obiettivo principale è garantire diritti e sicurezza a chi è costretto a fuggire da guerre, persecuzioni o disastri, promuovendo soluzioni durature come il rimpatrio volontario, l'integrazione o il reinsediamento.
 
 ### Le Figlie del Crocofisso - 2023
+Le [Figlie del Crocifisso](https://it.wikipedia.org/wiki/Figlie_del_Crocifisso) 
+sono un istituto religioso fondato nel diciannovesimo secolo a Livorno.
+Attive principalmente in Italia ed in Perù, forniscono istruzione a chi viene lasciato indietro o abbandonato dalla società, principalmente bambini.
 
 ### Vippity Clown in Corsia - 2022
 *Viviamo In Positivo Italia Onlus* é associazione di clown terapia
@@ -32,7 +35,10 @@ presente non solo in circa 200 strutture sociosanitarie, ospedali e case di ripo
 Presta servizio in orfanotrofi, ospedali, strutture per disabili fisici e psichici, quartieri in situazioni di disagio e nelle scuole al fine di donare speranza e gioia a chi vive in contesti sociali di povertà ed emarginazione educativa.
 
 ### Siamo in Diversi - 2019
-http://www.siamoindiversi.it/
+[Siamo in Diversi](http://www.siamoindiversi.it/) è un'associazione facente capo alla 
+Caritas Diocesana livornese che si occupa di aiutare persone svantaggiate (come coloro affetti dalla Sindrome di Down), che rimarrebbero escluse e sole altrimenti.
+
+Vengono organizzati molti pomeriggi di gioco ed anche gite al mare.
 
 ### Centro Mondialità per lo Sviluppo Reciproco - 2018
 Amichiamoci ha sostenuto la missione di [12 giovani livornesi in Tanzania](https://cmsr.org/campagne/kilimaji/):

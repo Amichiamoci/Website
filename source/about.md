@@ -8,6 +8,8 @@ menu:
     title: L'inizio
   - url: "#amichiamoci"
     title: Amichiamoci
+  - url: ../charity
+    title: Beneficienza
 ---
 
 ## L'inizio
