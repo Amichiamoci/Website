@@ -89,7 +89,7 @@ events:
     link: /events/murder-mistery-dinner
     brief: Cena con delitto a squadre. Troverete il colpevole?
   - name: Biliardino e Ping Pong
-    image: 
+    image: /assets/images/events/table-sports.png
     link: /events/table-sports
     brief: Un pomeriggio all'insegna degli sport da tavolo
   - name: Ponci e Gio'i
