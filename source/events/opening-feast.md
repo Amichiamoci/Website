@@ -3,13 +3,13 @@ layout: default
 title: Festa Iniziale
 permalink: /events/opening-feast/index.html
 menu:
-  - url: {{ '/events' | relative_path }}
-    title: Tuttu gli Eventi
+  - url: '../'
+    title: Tutti gli Eventi
   - url: "#la-festa-iniziale"
     title: La Festa Iniziale
 ---
 
-# La Festa Iniziale
+## La Festa Iniziale
 
 Inizia l'avventura con una serata di divertimento per tutti!
 

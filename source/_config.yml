@@ -88,6 +88,14 @@ events:
     image: /assets/images/events/cena-con-delitto.jpg
     link: /events/murder-mistery-dinner
     brief: Cena con delitto a squadre. Troverete il colpevole?
+  - name: Biliardino e Ping Pong
+    image: 
+    link: /events/table-sports
+    brief: Un pomeriggio all'insegna degli sport da tavolo
+  - name: Ponci e Gio'i
+    image: 
+    link: /events/table-games
+    brief: Una serata di giochi da tavolo in compagnia
   - name: Santa Messa
     image: /assets/images/events/santa-messa.jpg
     link: /events/holy-mass

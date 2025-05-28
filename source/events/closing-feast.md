@@ -3,13 +3,13 @@ layout: default
 title: Festa Finale
 permalink: /events/closing-feast/index.html
 menu:
-  - url: {{ '/events' | relative_path }}
-    title: Tuttu gli Eventi
+  - url: '../'
+    title: Tutti gli Eventi
   - url: "#la-festa-finale"
     title: La Festa Finale
 ---
 
-# La Festa Finale
+## La Festa Finale
 
 Chiudiamo in bellezza con la Festa di chiusura di Amichiamoci: 
 un evento per tutte le età con giochi, animazione e la tanto attesa cerimonia di premiazione dei tornei sportivi e della classifica generale.
