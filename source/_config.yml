@@ -7,16 +7,18 @@ plugins:
   - jekyll-sitemap
 
 authors:
-  - name: Leonardo Puccini
-    linkedin: https://www.linkedin.com/in/leonardopuccini/
-    roles: Sviluppatore
   - name: Riccardo Ciucci
     linkedin: https://www.linkedin.com/in/riccardo-ciucci-03bba8309/
     site: https://ciucci.dev
     roles: Sviluppatore, Amministratore
+  - name: Leonardo Puccini
+    linkedin: https://www.linkedin.com/in/leonardopuccini/
+    roles: Sviluppatore
   - name: Andrea Panariello
     linkedin: https://www.linkedin.com/in/andreapanariello/
     roles: Amministratore
+
+subscription_url: https://app.amichiamoci.it
 
 logos:
   - year: 2025

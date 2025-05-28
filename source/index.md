@@ -12,10 +12,11 @@ menu:
     title: Eventi
 main_image: /assets/images/staff.jpg
 sections:
-  - quote-pope-1.liquid
+  - subscriptions.liquid
   - tournaments-small.liquid
-  - quote-pope-2.liquid
+  - quote-pope-1.liquid
   - logos-small.liquid
+  - quote-pope-2.liquid
   - events-small.liquid
   - instagram.liquid
 ---
@@ -25,7 +26,7 @@ sections:
 "Amichiamoci" è una manifestazione che comprende momenti
 di preghiera, tornei sportivi ed eventi di vario genere.
 
-Iniziata nel 2006, la manifestazione si svolge ogni anno,
+Iniziata nel 2006, la manifestazione si svolge ogni anno
 nel mese di settembre.
 
 

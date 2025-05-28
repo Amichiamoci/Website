@@ -31,6 +31,8 @@ Per i ragazzi e le ragazze sopra i 17 anni (che hanno compiuto o compiranno 17 a
 
 ## Regolamento
 
+Presto disponibile
+
 ## Requisiti
 
 Per poter giocare, a tutti i giocatori è richiesto, al momento di iscrizione, di presentare un documento riconoscimento in corso di validità ed un certificato medico sportivo almeno di livello non agonistico. Questi documenti servono a garantire la copertura assicurativa all'interno delle strutture dove si svolge la manifestazione.

@@ -1,22 +1,20 @@
 <div class="cover small">
-    <div 
-        class="cover-image parallax" 
-        style="background-image: url({{  "/assets/images/home.jpg" | relative_url }});"
-    >
-        <div class="filter"></div>
-    </div>
-    <div class="cover-content">
-        <h1>Amichiamoci</h1>
-    {% for logo in site.logos limit:1 %}
-    {% if logo.motto %}
+  <div class="cover-image parallax" style="background-image: url({{  "/assets/images/home.jpg" | relative_url }});">
+    <div class="filter"></div>
+  </div>
+  <div class="cover-content">
+    <h1>Amichiamoci</h1>
+    {% for logo in site.logos limit: 1 %}
+      {% if logo.motto %}
         <h3>
-        {{ logo.motto }}
+          {{ logo.motto }}
         </h3>
-    {% endif %}
+      {% endif %}
     {% endfor %}
-        <p>
-            Manifestazione annuale per giovani e giovanissimi della
+    <p>
+      Manifestazione annuale per giovani e giovanissimi della
+ 
             diocesi di Livorno.
-        </p>
-    </div>
+    </p>
+  </div>
 </div>

@@ -1,20 +1,20 @@
 <section id="logos" class="logos fullscreen">
-	<div class="grid">
-		<div class="column col-100">
-			<h2>Loghi</h2>
-		</div>
-        {% for logo in site.logos limit:5 %}
-            <a class="logo-box column col-20" href="{{ "/logos" | relative_url }}">
-                <img src="{{ logo.file | relative_url }}" alt="Logo {{ logo.year }}">
-                <span class="slogan big">
-                    {{ logo.year }}
-                </span>
-            </a>
-        {% endfor %}
-		<div class="column col-100">
-			<a class="button big rounded" href="{{ "/logos" | relative_url }}">
-				Mostra tutti
-			</a>
-		</div>
-	</div>
+  <div class="grid">
+    <div class="column col-100">
+      <h2>Loghi</h2>
+    </div>
+    {% for logo in site.logos limit: 5 %}
+      <a class="logo-box column col-20" href="{{ "/logos" | relative_url }}">
+        <img src="{{ logo.file | relative_url }}" alt="Logo {{ logo.year }}">
+        <span class="slogan big">
+          {{ logo.year }}
+        </span>
+      </a>
+    {% endfor %}
+    <div class="column col-100">
+      <a class="button big rounded" href="{{ "/logos" | relative_url }}">
+        Mostra tutti
+      </a>
+    </div>
+  </div>
 </section>

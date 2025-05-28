@@ -1,14 +1,14 @@
 <section id="logos" class="logos">
-    <div class="logo-gallery grid">
-        <div class="column col-100">
-            <h2>Loghi</h2>
-        </div>
-        {% for logo in site.logos %}
-            <div class="logo-box column col-25">
-                <img src="{{ logo.file | relative_url }}">
-                <span class="slogan">{{ logo.motto | default: "" }}</span>
-                <span class="year">{{ logo.year }}</span>
-            </div>
-        {% endfor %}
+  <div class="logo-gallery grid">
+    <div class="column col-100">
+      <h2>Loghi</h2>
     </div>
+    {% for logo in site.logos %}
+      <div class="logo-box column col-25">
+        <img src="{{ logo.file | relative_url }}">
+        <span class="slogan">{{ logo.motto | default: "" }}</span>
+        <span class="year">{{ logo.year }}</span>
+      </div>
+    {% endfor %}
+  </div>
 </section>
