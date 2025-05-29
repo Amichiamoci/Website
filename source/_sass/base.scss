@@ -182,6 +182,15 @@ a.button {
 	}
 }
 
+.hide-mobile {
+	user-select: none;
+}
+@media screen and (max-width: 767.98px)
+{
+	.hide-mobile {
+		display: none;
+	}
+}
 
 .filter { 
 	position: absolute; 

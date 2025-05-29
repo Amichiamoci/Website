@@ -50,6 +50,12 @@
         <div class="legal">
           <a href="{{ "/credits" | relative_url }}">Crediti</a>
           <a href="{{ "/privacy" | relative_url }}">Privacy</a>
+          {% if site.staff_panel %}
+            <a
+              href="{{ site.staff_panel }}"
+              target="_blank"
+              title="Vai al Portale Staff">Portale Staff</a>
+          {% endif %}
         </div>
       </div>
     </div>

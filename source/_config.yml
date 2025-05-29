@@ -21,6 +21,9 @@ authors:
 # Comment to hide the link
 subscription_url: https://app.amichiamoci.it
 
+# Comment to hide the link
+staff_panel: https://staff.amichiamoci.it
+
 logos:
   - year: 2025
     file: /assets/images/logos/2025.png
