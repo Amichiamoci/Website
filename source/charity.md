@@ -29,7 +29,7 @@ sono un istituto religioso fondato nel diciannovesimo secolo a Livorno.
 Attive principalmente in Italia ed in Perù, forniscono istruzione a chi viene lasciato indietro o abbandonato dalla società, principalmente bambini.
 
 ### Vippity Clown in Corsia - 2022
-*Viviamo In Positivo Italia Onlus* é associazione di clown terapia
+*Viviamo In Positivo Italia Onlus* è associazione di clown terapia
 presente non solo in circa 200 strutture sociosanitarie, ospedali e case di riposo in Italia ma anche nei Paesi in via di sviluppo per l’attuazione di progetti di “animazione educativa” con i valori della clownterapia e del Circo Sociale.
 
 Presta servizio in orfanotrofi, ospedali, strutture per disabili fisici e psichici, quartieri in situazioni di disagio e nelle scuole al fine di donare speranza e gioia a chi vive in contesti sociali di povertà ed emarginazione educativa.
