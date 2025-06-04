@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Benvenuto
+description: Scopri Amichiamoci
 menu:
   - url: "#chi-siamo"
     title: Chi siamo

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: I loghi
+description: Ogni edizione di Amichiamoci ha il proprio logo e il proprio slogan, scoprili qui!
 permalink: /logos/index.html
 menu:
   - url: "#gli-slogan"

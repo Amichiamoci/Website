@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Messa di Apertura
+description: Prima dei giochi e della cena, partecipiamo tutti assieme alla Santa Messa di inizio Manifestazione
 permalink: /events/holy-mass/index.html
 menu:
   - url: '../'

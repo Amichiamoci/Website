@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Beneficienza
+description: Ogni anno, il ricavato della Manifestazione viene devoluto in beneficienza
 permalink: /charity/index.html
 menu:
     - url: "#aiutare-il-prossimo"

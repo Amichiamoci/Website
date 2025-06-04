@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Il Basket
+description: Ogni edizione comprende un torneo di basket a tre tra le parrocchie
 permalink: /sport/basketball/index.html
 main_image: /assets/images/sport/basketball.jpg
 menu:

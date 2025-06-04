@@ -1,6 +1,7 @@
 ---
 layout: default
 title: La Pallavolo
+description: Ogni edizione comprende un torneo di pallavolo tra le parrocchie
 permalink: /sport/volleyball/index.html
 main_image: /assets/images/sport/volleyball.jpg
 menu:

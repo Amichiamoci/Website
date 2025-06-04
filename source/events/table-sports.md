@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ping Pong e Biliardino
+description: Un pomeriggio all'insegna del Ping Pong e del Biliardino
 permalink: /events/table-sports/index.html
 menu:
   - url: '../'

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Festa Finale
+description: La Manifestazione si chiude col botto. Quale parrocchia si porterà a casa la coppa?
 permalink: /events/closing-feast/index.html
 menu:
   - url: '../'

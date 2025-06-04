@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Crediti
+description: Com'è fatto il sito di Amichiamoci
 permalink: /credits/index.html
 menu:
   - url: "#realizzazione-del-sito"

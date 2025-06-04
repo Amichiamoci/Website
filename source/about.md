@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Chi siamo
+description: Dal 2005 a oggi Amichiamoci anima la Diocesi di Livorno
 permalink: /about/index.html
 main_image: /assets/images/staff.jpg
 menu:

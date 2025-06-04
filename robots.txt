@@ -2,8 +2,7 @@
 # per informazioni contattare info@amichiamoci.it
 
 User-Agent: *
-Disallow:
-test/*
-admin/*
-admin_test/*
-app/*
+Disallow: /test/
+Disallow: /admin/
+Disallow: /admin_test/
+Disallow: /app/

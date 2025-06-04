@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Invito a cena con delitto
+description: Un efferato delitto sconvolge una cena. Riuscirai a trovare l'assassino?
 permalink: /events/murder-mistery-dinner/index.html
 menu:
   - url: '../'

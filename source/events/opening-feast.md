@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Festa Iniziale
+description: Ogni edizione inizia con giochi per ragazzi e una cena, seguita da balli di gruppo 
 permalink: /events/opening-feast/index.html
 menu:
   - url: '../'

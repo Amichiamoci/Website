@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Veglia di Preghiera
+description: Una veglia di preghiera tutti assieme
 permalink: /events/prayer-vigil/index.html
 menu:
   - url: '../'

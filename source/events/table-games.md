@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ponci e Gio'i
+description: Una serata in compagnia, all'insegna dei giochi da tavolo
 permalink: /events/table-games/index.html
 menu:
   - url: '../'

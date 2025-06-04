@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Caccia al Tesoro
+description: Le cacce al tesoro sono tra gli eventi più attesi della Manifestazione
 permalink: /events/treasure-hunt/index.html
 menu:
   - url: '../'

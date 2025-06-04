@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Il Calcio
+description: Ogni edizione comprende un torneo di calcio a 5 tra le parrocchie
 permalink: /sport/football/index.html
 main_image: /assets/images/sport/football.jpg
 menu:
