@@ -11,7 +11,7 @@ menu:
     title: Loghi
   - url: "#events"
     title: Eventi
-main_image: /assets/images/staff.jpg
+main_image: /assets/images/staff.webp
 sections:
   - subscriptions.liquid
   - tournaments-small.liquid
