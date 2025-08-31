@@ -36,6 +36,8 @@ Per i ragazzi e le ragazze sopra i 17 anni (che hanno compiuto o compiranno 17 a
 
 Per non rovinare le strutture e rendere il gioco più equo, sono vietate le scarpe con i tacchetti.
 
+Il regolamento completo è disponibile [qui](/assets/pdf/calcio.pdf).
+
 ## Requisiti
 
 Per poter giocare, a tutti i giocatori è richiesto, al momento di iscrizione, di presentare un documento riconoscimento in corso di validità ed un certificato medico sportivo almeno di livello non agonistico. Questi documenti servono a garantire la copertura assicurativa all'interno delle strutture dove si svolge la manifestazione.
