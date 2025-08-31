@@ -32,7 +32,7 @@ Per i ragazzi e le ragazze sopra i 17 anni (che hanno compiuto o compiranno 17 a
 
 ## Regolamento
 
-Presto disponibile
+Scaricalo [qui](/assets/pdf/pallavolo.pdf)
 
 ## Requisiti
 
