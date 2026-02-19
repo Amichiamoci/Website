@@ -19,7 +19,7 @@ authors:
     roles: Amministratore
 
 # Comment to hide the link
-subscription_url: https://app.amichiamoci.it
+# subscription_url: https://app.amichiamoci.it
 
 # Comment to hide the link
 staff_panel: https://staff.amichiamoci.it

@@ -17,6 +17,9 @@ Partecipare ad Amichiamoci significa fare la differenza: insieme possiamo trasfo
 
 ## Beneficiari passati
 
+### A.G.B.A.L.T. OdV - 2025
+L'[Associazione Genitori Bambini Affetti da Leucemia o Tumore](https://www.agbalt.it/) svolge da anni un'attivutà di volontariato volta al miglioramento della qualità della vita dei bambini affetti da patologie così rare ed ancora potenzialmente mortali.
+
 ### UNHCR - 2024
 L'[UNHCR](https://www.unhcr.org/it/) (Alto Commissariato delle Nazioni Unite per i Rifugiati) è
 un'agenzia dell'ONU fondata nel 1950 per proteggere e assistere i rifugiati,
