@@ -1,0 +1,6 @@
+services:
+  site:
+    build: 
+      context: ../
+    ports:
+      - 8080:80

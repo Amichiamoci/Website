@@ -1,131 +1,128 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>
-    {{ page.title }} - {{ site.title }}
-  </title>
-  {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
-  {% endif %}
-  <meta name="robots" content="index, follow">
-  {% for author in site.authors %}
-    <meta name="author" content="{{ author.name }}">
-  {% endfor %}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>
+      {{ page.title }} - {{ site.title }}
+    </title>
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="robots" content="index, follow">
+    {% for author in site.authors %}
+      <meta name="author" content="{{ author.name }}">
+    {% endfor %}
 
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin>
-  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+    <link
+      rel="preconnect"
+      href="https://cdnjs.cloudflare.com/"
+      crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
 
-  <link rel="icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
-  <link rel="shortcut icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
-	<link rel="apple-touch-icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
+    <link rel="icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ "/assets/images/favicon.png" | relative_url }}">
 
-  <link 
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
-    integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer"
-  >
-  <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer"
-  >
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+      integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-</head>
-<body>
-  <header>
-    <a class="logo" href="{{ "/" | relative_url }}" title="Amichiamoci">
-      <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Banner">
-    </a>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap">
 
-    <ul class="navbar">
-      {% for item in page.menu %}
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <a
+        class="logo"
+        href="{{ "/" | relative_url }}"
+        title="Amichiamoci">
+        <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Banner">
+      </a>
+
+      <ul class="navbar">
+        {% for item in page.menu %}
+          <li>
+            <a href="{{ item.url }}" title="Vai a {{ item.title }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
         <li>
-          <a href="{{ item.url }}" title="Vai a {{ item.title }}">{{ item.title }}</a>
+          <a href="#contacts" title="Entra in contatto">
+            Contattaci
+          </a>
         </li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <button
+      type="button"
+      title="Torna su"
+      id="scroll-top-btn">
+      <i class="fa-solid fa-caret-up"></i>
+    </button>
+
+    {% include banner.liquid %}
+
+    {% if page.avoid_md %}
+      {{ content }}
+    {% else %}
+      {% assign content_blocks = content | split: "<h2" | slice: 1, 1000 %}
+      {% for content_block in content_blocks %}
+        <section class="overlap" title="{{ page.title }}">
+          <div class="overlap-box">
+            {% if page.main_image and forloop.first %}
+              <div class="overlap-image">
+                <img src="{{ page.main_image | relative_url }}" alt="{{ page.title }}">
+              </div>
+              <div class="overlap-content">
+                {{ content_block | prepend: "<h2" }}
+              </div>
+            {% else %}
+              <div class="overlap-image no-image"></div>
+              <div class="overlap-content no-image text-content">
+                {{ content_block | prepend: "<h2" }}
+              </div>
+            {% endif %}
+          </div>
+        </section>
       {% endfor %}
-      <li>
-        <a href="#contacts" title="Entra in contatto">
-          Contattaci
-        </a>
-      </li>
-    </ul>
+    {% endif %}
 
-    <div class="hamburger">
-      <span></span>
-      <span></span>
-    </div>
-  </header>
+    {% if page.sections %}
+      {% for sect in page.sections %}
+        {% include {{ sect }} %}
+      {% endfor %}
+    {% endif %}
 
-  <button type="button" title="Torna su" id="scroll-top-btn">
-	  <i class="fa-solid fa-caret-up"></i>
-  </button>
+    {% include footer.liquid %}
 
-  {% include banner.liquid %}
-  
-  {% if page.avoid_md %}
-    {{ content }}
-  {% else %}
-    {% assign content_blocks = content | split: "<h2" | slice: 1, 1000 %}
-    {% for content_block in content_blocks %}
-      <section class="overlap" title="{{ page.title }}">
-        <div class="overlap-box">
-          {% if page.main_image and forloop.first %}
-            <div class="overlap-image">
-                <img 
-                  src="{{ page.main_image | relative_url }}" 
-                  alt="{{ page.title }}">
-            </div>
-            <div class="overlap-content">
-              {{ content_block | prepend: "<h2" }}
-            </div>
-          {% else %}
-            <div class="overlap-image no-image"></div>
-            <div class="overlap-content no-image text-content">
-              {{ content_block | prepend: "<h2" }}
-            </div>
-          {% endif %}
-        </div>
-      </section>
-    {% endfor %}
-  {% endif %}
-
-  {% if page.sections %}
-    {% for sect in page.sections %}
-      {% include {{ sect }} %}
-    {% endfor %}
-  {% endif %}
-
-  {% include footer.liquid %}
-
-	<div class="bottom-bar">
-		<p>
-      &copy; Amichiamoci
-    </p>
-	</div>
-
-  <script 
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer"
-  ></script>
-  <script 
-    src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
-    integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script 
-    src="{{ "/assets/js/main.js" | relative_url }}"
-  ></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
+      integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  </body>
 </html>

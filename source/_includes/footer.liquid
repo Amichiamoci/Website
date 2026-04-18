@@ -3,36 +3,14 @@
     <div class="column col-30">
       <h4>Social</h4>
       <div class="social">
-        <a
-          target="_blank"
-          href="https://www.facebook.com/AmichiamociLivorno/"
-          title="Seguici su Facebook">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-        <a
-          target="_blank"
-          href="https://www.instagram.com/amichiamoci_/"
-          title="Seguici su Instagram">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a
-          target="_blank"
-          href="https://vm.tiktok.com/ZNd1nW61X/"
-          title="Seguici su TikTok">
-          <i class="fa-brands fa-tiktok"></i>
-        </a>
-        <a
-          target="_blank"
-          href="https://whatsapp.com/channel/0029VaW79v73gvWVaKxmiQ2A"
-          title="Iscriviti al nostro canale WhatsApp">
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
-        <a
-          target="_blank"
-          href="https://www.youtube.com/channel/UC-Ue0hmZJq--HVkd2PokLaA/"
-          title="Iscriviti al nostro canale YouTube">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
+        {% for social in site.socials %}
+          <a
+            target="_blank"
+            href="{{ social.link }}"
+            title="{{ social.title }}">
+            <i class="{{ social.icon }}"></i>
+          </a>
+        {% endfor %}
       </div>
       <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Footer banner">
     </div>
@@ -64,3 +42,33 @@
     </div>
   </div>
 </footer>
+<div class="bottom-bar">
+  <div class="grid">
+    <div class="column col-100">
+      <p>
+        <strong>
+          &copy; Amichiamoci A.S.D.
+        </strong>
+        {{ "now" | date: "%Y" }}
+      </p>
+      <hr style="margin: .5em auto; width: 75%;">
+    </div>
+    <div class="column col-70">
+      <p>
+        Questo sito è stato realizzato da umani. <br>
+        Nessua intelligenza artificiale è stata coinvolta nella sua creazione.
+      </p>
+    </div>
+    <div class="column col-30">
+      <a
+        href="https://no-ai-icon.com/statement/?url=Amichiamoci"
+        target="_blank"
+        title="Fatto da umani con Amore">
+        <img
+          src="{{ "/assets/images/sponsors/human-made-icon.svg" | relative_url }}"
+          alt="Fatto da umani"
+          height="45">
+      </a>
+    </div>
+  </div>
+</div>

@@ -17,8 +17,8 @@ menu:
 
 ### Realizzazione del sito
 
-Il sito è stato realizzato dal nostro staff. In
-particolare:
+Il nostro sito è realizzato e mantenuto dal nostro Staff;
+in particolare da
 
 {% include authors.liquid %}
 

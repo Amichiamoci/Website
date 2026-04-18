@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch container",
+      "request": "launch",
+      "type": "node", 
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Start container",
+      "postDebugTask": "Stop container"
+    }
+  ]
+}

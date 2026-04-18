@@ -10,21 +10,51 @@ authors:
   - name: Riccardo Ciucci
     linkedin: https://www.linkedin.com/in/riccardo-ciucci-03bba8309/
     site: https://ciucci.dev
-    roles: Sviluppatore, Amministratore
+    roles: Amministratore, sviluppatore
+
+ex_authors:
   - name: Leonardo Puccini
     linkedin: https://www.linkedin.com/in/leonardopuccini/
     roles: Sviluppatore
+  - name: Alessio Puccini
+    linkedin: https://www.linkedin.com/in/alessio-puccini-884381192/
+    roles: Amministratore
   - name: Andrea Panariello
     linkedin: https://www.linkedin.com/in/andreapanariello/
     roles: Amministratore
 
 # Comment to hide the link
-# subscription_url: https://app.amichiamoci.it
+subscription_url: https://app.amichiamoci.it
 
 # Comment to hide the link
 staff_panel: https://staff.amichiamoci.it
 
+socials:
+  - name: Instagram
+    link: https://www.instagram.com/amichiamoci_/
+    icon: fa-brands fa-instagram
+    title: Seguici su Instagram
+  - name: TikTok
+    link: https://www.tiktok.com/@amichiamoci
+    icon: fa-brands fa-tiktok
+    title: Seguici su TikTok
+  - name: Whatsapp
+    link: https://whatsapp.amichiamoci.it
+    icon: fa-brands fa-whatsapp
+    title: Iscriviti al nostro canale WhatsApp
+  - name: Facebook
+    link: https://www.facebook.com/AmichiamociLivorno/
+    icon: fa-brands fa-facebook-f
+    title: Seguici su Facebook
+  - name: Youtube
+    link: https://yt.amichiamoci.it
+    icon: fa-brands fa-youtube
+    title: Iscriviti al nostro canale YouTube
+
 logos:
+  - year: 2026
+    file: /assets/images/logos/soon.svg
+    motto: Vivere, non vivacchiare
   - year: 2025
     file: /assets/images/logos/2025.png
     motto: Un cammino di speranza per un futuro di Luce

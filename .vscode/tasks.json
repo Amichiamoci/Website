@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start container",
+      "type": "shell",
+      "command": "docker-compose",
+      "args": [
+        "-f",
+        ".vscode/docker-compose.yml",
+        "up",
+        "--build",
+        "-d"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always" }
+    },
+    {
+      "label": "Stop container",
+      "type": "shell",
+      "command": "docker-compose",
+      "args": [
+        "-f",
+        ".vscode/docker-compose.yml",
+        "down"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always" }
+    }
+  ]
+}
