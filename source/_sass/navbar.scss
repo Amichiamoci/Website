@@ -44,7 +44,7 @@ header {
 			&:not(.button) {
 				color: $black;
 				&:hover {
-					color: $orange;
+					color: $main_color;
 				}
 			}
 		}
@@ -124,8 +124,8 @@ header {
 		li {
 			a { font-size: 32px; }
 			button { 
-				background: $orange; 
-				color: #fff;
+				background: $main_color; 
+				color: $text_color;
 			}
 		}
 	}

@@ -3,7 +3,7 @@
 	padding: 64px 48px; 
 	
 	&.fullscreen {
-		background: #fff;
+		background: $white;
 	}
 
 	h2 {
@@ -42,8 +42,8 @@
 		left: 0; 
 		top: 0;
 
-		background: $orange; 
-		color: #fff;
+		background: $main_color; 
+		color: $text_color;
 		padding: 16px; 
 		font-style: italic; 
 
@@ -62,8 +62,8 @@
 		bottom: 4px;
 		padding: 8px 12px 6px 16px; 
 		
-		background: $orange;
-		color: #fff; 
+		background: $main_color;
+		color: $text_color; 
 		border-top-left-radius: 16px;
 		transition: 600ms;
 		font-weight: 500;
@@ -75,8 +75,8 @@
 			visibility: visible;
 		}
 		.year { 
-			background: #fff; 
-			color: $orange;
+			background: $text_color; 
+			color: $main_color;
 		}
 	}
 

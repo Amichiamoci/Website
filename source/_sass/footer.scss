@@ -29,7 +29,7 @@ footer {
 		&::before {	
 			width: 30%; 
 			left: 0; 
-			background: $orange;
+			background: $main_color;
 		}
 		&::after {
 			width: 70%; 
@@ -62,7 +62,7 @@ footer {
 
 .social a i { font-size: 24px; }
 
-.social a:hover { background: $orange; }
+.social a:hover { background: $main_color; }
 
 .social a:nth-child(1) { margin-left: 0; }
 
@@ -72,7 +72,7 @@ footer {
 
 .links a i { width: 24px; text-align: center; margin-right: 4px; }
 
-.links a:hover { color: $orange; padding-left: 8px; }
+.links a:hover { color: $main_color; padding-left: 8px; }
 
 .legal { align-items: center; }
 

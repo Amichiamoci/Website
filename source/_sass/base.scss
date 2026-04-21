@@ -1,4 +1,5 @@
 $black: #111;
+$white: #e2dfdf;
 $purple: #7e0284;
 $blue: #13306a;
 $cyan: #17bcc2;
@@ -6,6 +7,11 @@ $green: #00be02;
 $yellow: #fdf500;
 $orange: #fb820f;
 $red: #be0002;
+$lime: #b7c82a;
+
+$main_color: $lime;
+$text_color: #da3e4b;
+$btn-hover-invert: false;
 
 $sans: "Roboto", sans-serif;
 $serif: "Roboto Slab", serif;
@@ -168,13 +174,19 @@ a.button {
 	font-weight: 500;
 	font-family: $serif;
 
-	background: $orange;
-	border: 3px solid $orange;
-	color: #fff;
+	background: $main_color;
+	border: 3px solid $main_color;
+	color: $text_color;
 
-	&:hover {
-		background: #fff;
-		color: $orange;
+	@if $btn-hover-invert {
+		&:hover {
+			background: $text_color;
+			color: $main_color;
+		}
+	} @else {
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	& > i {
@@ -252,12 +264,12 @@ a.button {
 
 .text-content p strong.italic { font-style: italic; padding-left: 0; }
 
-.text-content p a { color: #000; position: relative; }
+.text-content p a { color: $text_color; position: relative; }
 .text-content p a { font-style: italic; }
 
 .text-content p a::after { content: ""; position: absolute; left: 0; }
 .text-content p a::after { top: 100%; width: 0; height: 2px; }
-.text-content p a::after { background: #000; transition: 0.4s; }
+.text-content p a::after { background: $text_color; transition: 0.4s; }
 
 .text-content p a:hover::after { width: 100%; }
 
@@ -269,7 +281,7 @@ a.button {
 	justify-content: center;
 	align-items: center;
 
-	border: 3px solid var(--cl-black);
+	border: 3px solid $black;
 	border-radius: 50%;
 
 	i {

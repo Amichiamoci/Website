@@ -16,7 +16,7 @@
 
 	&.no-image {
 		background-image: none;
-		background-color: $orange;
+		background-color: $main_color;
 	}
 }
 
@@ -30,7 +30,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column; 
-	color: #fff;
+	color: $text_color;
 
 	h4 {
 		width: 100%;

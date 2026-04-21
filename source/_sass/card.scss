@@ -9,7 +9,7 @@
 }
 
 .card { 
-	background: #fff;
+	background: $white;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 24px 4px;
 	margin: 1.65%; 
 	border-radius: 24px; 
@@ -35,7 +35,7 @@
 		width: 100%;
 		height: calc(100% - 4px);
 
-		background: $orange;
+		background: $main_color;
 		opacity: 0; 
 		visibility: hidden; 
 		transition: 400ms;
