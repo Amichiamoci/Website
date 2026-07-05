@@ -53,60 +53,65 @@ socials:
 
 logos:
   - year: 2026
-    file: /assets/images/logos/2026.png
+    file: /assets/images/logos/all/2026.png
     motto: Vivere, non vivacchiare. Ne varrà la gioia
+    author: Maria Longobardi, Federica Piccini
   - year: 2025
-    file: /assets/images/logos/2025.png
+    file: /assets/images/logos/all/2025.png
     motto: Un cammino di speranza per un futuro di Luce
+    author: Marco Ciucci
   - year: 2024
-    file: /assets/images/logos/2024.jpg
+    file: /assets/images/logos/all/2024.png
     motto: Dov'è odio, che io porti Amore
+    author: Maria Longobardi, Federica Piccini
   - year: 2023
-    file: /assets/images/logos/2023.svg
+    file: /assets/images/logos/all/2023.svg
     motto: Piedi per terra, cuori nel Cielo
+    author: Chiara Ardito
   - year: 2022
-    file: /assets/images/logos/2022.svg
+    file: /assets/images/logos/all/2022.svg
     motto: Prendete in mano la vostra vita e fatene un capolavoro
+    author: Marco Ciucci, Riccardo Ciucci
   - year: 2019
-    file: /assets/images/logos/2019.jpg
+    file: /assets/images/logos/all/2019.png
     motto: Apri il cuore al mondo
   - year: 2018
-    file: /assets/images/logos/2018.jpg
+    file: /assets/images/logos/all/2018.png
     motto: Niente riserve, più titolari
   - year: 2017
-    file: /assets/images/logos/2017.jpg
+    file: /assets/images/logos/all/2017.png
     motto: Chiamati alla gioia
   - year: 2016
-    file: /assets/images/logos/2016.jpg
+    file: /assets/images/logos/all/2016.png
     motto: Ama e dillo con la vita
   - year: 2015
-    file: /assets/images/logos/2015.jpg
+    file: /assets/images/logos/all/2015.png
     motto: Keep calm and rallegriamoci
   - year: 2014
-    file: /assets/images/logos/2014.jpg
+    file: /assets/images/logos/all/2014.png
     motto: Il vero potere è il servizio
   - year: 2013
-    file: /assets/images/logos/2013.jpg
+    file: /assets/images/logos/all/2013.png
     motto: Rispondi alla chiamata
   - year: 2012
-    file: /assets/images/logos/2012.jpg
+    file: /assets/images/logos/all/2012.png
     motto: È più bello insieme
   - year: 2011
-    file: /assets/images/logos/2011.jpg
+    file: /assets/images/logos/all/2011.png
     motto: Ascolta la mia voce
   - year: 2010
-    file: /assets/images/logos/2010.jpg
+    file: /assets/images/logos/all/2010.png
     motto: Radicati in Cristo, saldi nella Fede
   - year: 2009
-    file: /assets/images/logos/2009.jpg
+    file: /assets/images/logos/all/2009.png
     motto: Trova il Tempo...
   - year: 2008
-    file: /assets/images/logos/2008.jpg
+    file: /assets/images/logos/all/2008.png
     motto: Avrete la forza dallo Spirito Santo
   - year: 2007
-    file: /assets/images/logos/2007.jpg
+    file: /assets/images/logos/all/2007.png
   - year: 2006
-    file: /assets/images/logos/2006.jpg
+    file: /assets/images/logos/all/2006.png
 
 events:
   - name: Festa Iniziale
