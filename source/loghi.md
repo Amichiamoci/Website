@@ -2,7 +2,7 @@
 layout: default
 title: I loghi
 description: Ogni edizione di Amichiamoci ha il proprio logo e il proprio slogan, scoprili qui!
-permalink: /logos/index.html
+permalink: /loghi/index.html
 menu:
   - url: "#gli-slogan"
     title: Slogan
@@ -29,3 +29,14 @@ logo dell'anno.
 
 Qui sotto potete trovare una raccolta di tutti i loghi
 delle passate edizioni di Amichiamoci.
+
+## Licenza d'uso
+
+I loghi sono concessi in uso a terze parti solo alle seguenti condizioni:
+
+- Devono citare sempre _Amichiamoci_ come organizzazione proprietaria.
+- Devono includere un link al sito ufficiale: [www.amichiamoci.it](https://www.amichiamoci.it).
+- Possono essere usati esclusivamente in manifestazioni o eventi senza scopo di lucro o a fini benefici.
+
+Tutti i file dei loghi sono scaricabili dalla
+[repository ufficiale](https://github.com/Amichiamoci/Loghi "Vai alla repository").

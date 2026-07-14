@@ -2,7 +2,7 @@
 layout: default
 title: Il Calcio
 description: Ogni edizione comprende un torneo di calcio a 5 tra le parrocchie
-permalink: /sport/football/index.html
+permalink: /sport/calcio/index.html
 main_image: /assets/images/sport/football.jpg
 menu:
   - url: "#under"
@@ -24,19 +24,16 @@ I tornei possono essere misti o non, variando a seconda degli iscritti ad un'edi
 
 I tornei under e i tornei femminili sono di calcio a 5, mentre quelli over possono essere, talvolta di calcio a 8. 
 
-## Under
+Per non rovinare le strutture e rendere il gioco più equo, sono vietate le scarpe con i tacchetti.
+Il regolamento completo è disponibile [qui]({{ '/regolamenti/calcio' | relative_url }}).
+
+### Under
 
 Per i ragazzi e le ragazze sotto i 17 anni.
 
-## Over
+### Over
 
 Per i ragazzi e le ragazze sopra i 17 anni (che hanno compiuto o compiranno 17 anni nell'anno in corso).
-
-## Regolamento
-
-Per non rovinare le strutture e rendere il gioco più equo, sono vietate le scarpe con i tacchetti.
-
-Il regolamento completo è disponibile [qui](/assets/pdf/calcio.pdf).
 
 ## Requisiti
 

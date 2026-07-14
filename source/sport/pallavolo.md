@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Il Basket
-description: Ogni edizione comprende un torneo di basket a tre tra le parrocchie
-permalink: /sport/basketball/index.html
-main_image: /assets/images/sport/basketball.jpg
+title: La Pallavolo
+description: Ogni edizione comprende un torneo di pallavolo tra le parrocchie
+permalink: /sport/pallavolo/index.html
+main_image: /assets/images/sport/volleyball.jpg
 menu:
   - url: "#under"
     title: Under
@@ -15,24 +15,22 @@ menu:
     title: Requisiti
 ---
 
-## Basket
+## Pallavolo
 
-La pallacanestro viene giocata in due distinte categorie in base all'età:
+La pallavolo viene giocata in due distinte categorie in base all'età:
 [under](#under "Vai alla sezione") e [over](#over "Vai alla sezione").
 
 Entrambe le categorie sono miste.
 
-## Under
+Il regolamento è disponibile [qui]({{ '/regolamenti/pallavolo' | relative_url }}).
+
+### Under
 
 Per i ragazzi e le ragazze sotto i 17 anni.
 
-## Over
+### Over
 
 Per i ragazzi e le ragazze sopra i 17 anni (che hanno compiuto o compiranno 17 anni nell'anno in corso).
-
-## Regolamento
-
-Scaricalo [qui](/assets/pdf/basket.pdf)
 
 ## Requisiti
 

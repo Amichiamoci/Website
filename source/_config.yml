@@ -116,33 +116,33 @@ logos:
 events:
   - name: Festa Iniziale
     image: /assets/images/events/festa-iniziale.jpg
-    link: /events/opening-feast
+    link: /eventi/festa-iniziale
     brief: Una festa per inaugurare la nuova edizione di Amichiamoci.
   - name: Caccia al Tesoro
     image: /assets/images/events/caccia-al-tesoro.jpg
-    link: /events/treasure-hunt
+    link: /eventi/caccia-al-tesoro
     brief: Intrigante caccia (a premi) per le vie della città.
   - name: Cena con Delitto
     image: /assets/images/events/cena-con-delitto.jpg
-    link: /events/murder-mistery-dinner
+    link: /eventi/cena-con-delitto
     brief: Cena con delitto a squadre. Troverete il colpevole?
   - name: Biliardino e Ping Pong
     image: /assets/images/events/table-sports.png
-    link: /events/table-sports
+    link: /eventi/sport-da-tavolo
     brief: Un pomeriggio all'insegna degli sport da tavolo
   - name: Ponci e Gio'i
     image: 
-    link: /events/table-games
+    link: /eventi/serata-giochi
     brief: Una serata di giochi da tavolo in compagnia
   - name: Santa Messa
     image: /assets/images/events/santa-messa.jpg
-    link: /events/holy-mass
+    link: /eventi/santa-messa
     brief: La Santa Messa di Amichiamoci, siete tutti invitati!
   - name: Veglia di Preghiera
     image: /assets/images/events/veglia-di-preghiera.jpg
-    link: /events/prayer-vigil
+    link: /eventi/veglia-di-preghiera
     brief: Un momento di preghiera e di riflessione	insieme.
   - name: Festa finale
     image: /assets/images/events/festa-finale.jpg
-    link: /events/closing-feast
+    link: /eventi/festa-finale
     brief: Musica, cibo e divertimento per chiudere in bellezza.

@@ -31,5 +31,5 @@ Iniziata nel 2006, la manifestazione si svolge ogni anno
 nel mese di settembre.
 
 
-<a class="button" style="margin-top: .3em; margin-right: .5em;" href="{{ "/about" | relative_url }}">Leggi di più</a>
-<a class="button" style="margin-top: .3em; margin-inline: .5em;" href="{{ "/charity" | relative_url }}">Aiutare il prossimo</a>
+<a class="button" style="margin-top: .3em; margin-right: .5em;" href="{{ "/chi-siamo" | relative_url }}">Leggi di più</a>
+<a class="button" style="margin-top: .3em; margin-inline: .5em;" href="{{ "/beneficienza" | relative_url }}">Aiutare il prossimo</a>

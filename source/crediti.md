@@ -2,7 +2,7 @@
 layout: default
 title: Crediti
 description: Com'è fatto il sito di Amichiamoci
-permalink: /credits/index.html
+permalink: /crediti/index.html
 main_image: /assets/images/staff.webp
 menu:
   - url: "#realizzazione-del-sito"

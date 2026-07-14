@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Privacy
-description: Privacy Policy di Amichiamoci e modalità di iscrizione alla Manifestazione
+description: Privacy policy di Amichiamoci e modalità di iscrizione alla Manifestazione
 permalink: /privacy/index.html
 menu:
   - url: "#privacy"
