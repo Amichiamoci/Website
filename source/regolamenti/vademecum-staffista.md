@@ -7,3 +7,5 @@ menu:
   - url: '../'
     title: Tutti i regolamenti
 ---
+
+## Vademecum dello Staffista

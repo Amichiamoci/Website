@@ -11,7 +11,7 @@ menu:
 ## Adesione ad Amichiamoci
 
 Perché una parrocchia della [Diocesi di Livorno](https://www.diocesilivorno.it)
-aderisca al progetto Amichiamoci, è necessario che essa fornisca:
+aderisca al progetto Amichiamoci, è necessario che essa fornisca (ogni anno in cui intende partecipare):
 
 - almeno un/una staffista per contribuire all'organizzazione e gestire le iscrizioni della stessa;
 - almeno una squadra in un torneo sportivo;

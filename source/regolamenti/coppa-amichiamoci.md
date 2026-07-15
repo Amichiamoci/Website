@@ -15,7 +15,7 @@ La classifica attuale della _Coppa Amichiamoci_ viene aggiornata dallo Staff;
 Lo Staff si impegna a inserire i risultati appena possibile, e a inserire tutti i risultati di un singolo evento nello stesso momento.
 
 I punti derivanti dagli eventi sportivi vengono aggiunti tutti assieme alla
-[conclusione della Manifestazione](/events/closing-feast), in modo da poter annunciare i risultati finali prima ai presenti alla premiazione.
+[conclusione della Manifestazione]({{ '/eventi/festa-finale' | relative_url }}), in modo da poter annunciare i risultati finali prima ai presenti alla premiazione.
 
 ### Tornei sportivi
 
