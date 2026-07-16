@@ -2,7 +2,7 @@
 layout: default
 title: Festa Finale
 description: La Manifestazione si chiude col botto. Quale parrocchia si porterà a casa la coppa?
-permalink: /events/festa-finale/index.html
+permalink: /eventi/festa-finale/index.html
 menu:
   - url: '../'
     title: Tutti gli Eventi

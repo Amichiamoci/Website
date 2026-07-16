@@ -2,7 +2,7 @@
 layout: default
 title: Veglia di Preghiera
 description: Una veglia di preghiera tutti assieme
-permalink: /events/veglia-dipreghiera/index.html
+permalink: /eventi/veglia-dipreghiera/index.html
 menu:
   - url: '../'
     title: Tutti gli Eventi
@@ -17,4 +17,5 @@ Una breve serata di silenzio, riflessione, canti e testimonianze, per riscoprire
 
 Un'occasione per fermarsi, guardarsi dentro e condividere la luce della fede in un momento di intimità e comunione.
 
-La Veglia si svolge dopo il pomeriggio dei [tornei di ping pong e biliardino]({{ '/events/sport-da-tavolo' | relative_url }}).
+La Veglia si svolge dopo il pomeriggio dei
+[tornei di ping pong e biliardino]({{ '/eventi/sport-da-tavolo' | relative_url }}).

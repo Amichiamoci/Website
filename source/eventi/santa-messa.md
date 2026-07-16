@@ -2,7 +2,7 @@
 layout: default
 title: Messa di Apertura
 description: Prima dei giochi e della cena, partecipiamo tutti assieme alla Santa Messa di inizio Manifestazione
-permalink: /events/santa-messa/index.html
+permalink: /eventi/santa-messa/index.html
 menu:
   - url: '../'
     title: Tutti gli Eventi
