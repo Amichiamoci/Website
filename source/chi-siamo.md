@@ -9,8 +9,8 @@ menu:
     title: L'inizio
   - url: "#amichiamoci"
     title: Amichiamoci
-  - url: ../beneficienza
-    title: Beneficienza
+  - url: ../beneficenza
+    title: Beneficenza
 ---
 
 ## L'inizio

@@ -28,14 +28,14 @@
         <div class="legal">
           <a href="{{ "/crediti" | relative_url }}">Crediti</a>
           <a href="{{ "/privacy" | relative_url }}">Privacy</a>
-          {% if site.staff_panel %}
-            <a
-              href="{{ site.staff_panel }}"
-              target="_blank"
-              title="Vai al Portale Staff">Portale Staff</a>
-          {% endif %}
           <a href="{{ "/regolamenti" | relative_url }}">Regolamenti</a>
         </div>
+        {% if site.staff_panel %}
+          <a
+            href="{{ site.staff_panel }}"
+            target="_blank"
+            title="Vai al Portale Staff">Portale Staff</a>
+        {% endif %}
       </div>
     </div>
     <div class="column col-40">
@@ -48,7 +48,7 @@
     <div class="column col-100">
       <p>
         <strong>
-          &copy; Amichiamoci A.S.D.
+          &copy; Amichiamoci
         </strong>
         {{ "now" | date: "%Y" }}
       </p>

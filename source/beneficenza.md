@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Beneficienza
-description: Ogni anno, il ricavato della Manifestazione viene devoluto in beneficienza
-permalink: /beneficienza/index.html
+title: Beneficenza
+description: Ogni anno, il ricavato della Manifestazione viene devoluto in beneficenza
+permalink: /beneficenza/index.html
 menu:
     - url: "#aiutare-il-prossimo"
       title: "Solidarietà"
