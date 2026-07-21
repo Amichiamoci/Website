@@ -22,7 +22,7 @@ Il presente regolamento disciplina lo svolgimento del torneo _Calcio Over_. Per 
   - **3 minuti** durante la prima settimana del torneo.
 - Trascorso il tempo previsto, la squadra può reintegrare un altro giocatore, ma non quello espulso.
 - La bestemmia, intesa come imprecazione contro Dio, i Santi o le realtà sacre, comporta l'espulsione immediata. L'accaduto sarà successivamente valutato dalla **Commissione Tornei**, che potrà adottare ulteriori provvedimenti disciplinari.
-- Espressioni non propriamente offensive ma incompatibili con lo spirito dell'iniziativa (ad esempio: *"Dio cantaci la messa"*) comportano l'ammonizione.
+- Espressioni non propriamente offensive ma incompatibili con lo spirito della Manifestazione (ad esempio: *"Dio cantaci la messa"*) comportano l'ammonizione.
 - Il giocatore che urli contro un avversario o contro l'arbitro, ovvero assuma atteggiamenti intimidatori, minacciosi o aggressivi, è soggetto a espulsione diretta.
 - Ai fini della classifica disciplinare del torneo, ogni cartellino rosso equivale a **3 falli**.
 
@@ -39,7 +39,7 @@ Il presente regolamento disciplina lo svolgimento del torneo _Calcio Over_. Per 
 - Costituiscono fallo tutti gli interventi previsti dal Regolamento Ufficiale del Calcio a 11, con le modifiche previste dal presente regolamento.
 - Sono inoltre considerati falli:
   - le scivolate vietate ai sensi del presente regolamento;
-  - qualsiasi intervento ritenuto contrario allo spirito di lealtà e correttezza che caratterizza il torneo "Amichiamoci".
+  - qualsiasi intervento ritenuto contrario allo spirito di lealtà e correttezza che caratterizza _Amichiamoci_.
 - La valutazione tecnica dei falli è rimessa all'insindacabile giudizio dell'arbitro.
 - Al **5° fallo di squadra** in ciascun tempo viene assegnato un tiro libero per ogni successivo fallo. Sono esclusi dal conteggio:
   - i falli che comportano un calcio di rigore;

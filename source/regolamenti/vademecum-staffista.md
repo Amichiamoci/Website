@@ -122,7 +122,7 @@ Le azioni effettuate dallo staffista sul Portale vengono automaticamente traccia
 
 ## Lo Spirito di Amichiamoci
 
-Lo Spirito di Amichiamoci rappresenta il principio ispiratore della manifestazione e costituisce il fondamento dell'azione di ogni staffista.
+Lo _Spirito di Amichiamoci_ rappresenta il principio ispiratore della manifestazione e costituisce il fondamento dell'azione di ogni staffista.
 
 Esso non si esaurisce nel rispetto delle regole organizzative, ma si manifesta attraverso uno stile di servizio improntato alla disponibilità, all'accoglienza, al dialogo, alla comprensione e alla partecipazione.
 

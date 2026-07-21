@@ -18,7 +18,7 @@ Per quanto non espressamente previsto, si applicano le [Regole di Gioco](https:/
 ### Norme generali
 
 - La bestemmia, intesa come imprecazione contro Dio, i Santi o le realtà sacre, comporta l'espulsione immediata dalla gara. L'episodio sarà successivamente valutato dalla **Commissione Tornei**, che potrà adottare ulteriori provvedimenti disciplinari.
-- Espressioni non propriamente offensive ma incompatibili con il contesto educativo dell'iniziativa (ad esempio: *"Dio cantaci la messa"*) comportano l'ammonizione.
+- Espressioni non propriamente offensive ma incompatibili con il contesto della Manifestazione (ad esempio: *"Dio cantaci la messa"*) comportano l'ammonizione.
 - Possono prendere parte alla gara esclusivamente gli atleti regolarmente inseriti nella distinta della squadra. Eventuali omissioni imputabili allo staff organizzativo saranno valutate dalla Commissione Tornei.
 - Prima di accedere al terreno di gioco ogni partecipante è tenuto a sostituire le calzature utilizzate all'esterno con scarpe idonee alla palestra.
 - Durante la gara il pallone deve essere restituito agli avversari facendolo passare **al di sotto della rete**.
