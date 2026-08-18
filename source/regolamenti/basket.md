@@ -240,7 +240,7 @@ Qualora il possesso prosegua senza alcun tentativo di conclusione, i falli sono 
 
 ### Falli antisportivi ed espulsioni
 
-I falli antisportivi e le espulsioni prevalgono sempre sulla violazione **Clean the Ball**.
+I falli antisportivi e le espulsioni prevalgono sempre sulla violazione _Clean the Ball_.
 
 In tali casi:
 
