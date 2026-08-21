@@ -9,10 +9,10 @@ menu:
     title: Under
   - url: "#over"
     title: Over
-  - url: "#regolamento"
-    title: Regolamento
   - url: "#requisiti"
     title: Requisiti
+  - url: /regolamenti/calcio
+    title: Regolamento
 ---
 
 ## Calcio
